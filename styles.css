@@ -1,0 +1,64 @@
+/* Reset default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #ffe4e1;
+    color: #000; /* Change text color to black */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 800px; /* Set the max-width to keep it centered */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    text-align: center;
+    background: #e683b3;
+}
+
+/* Header Styling */
+h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Logo Styling */
+#logo {
+    width: 100px; /* Set the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Optional: Add space below the logo */
+}
+
+/* Meeting Container */
+#meet {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    height: 500px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    #meet {
+        height: 400px;
+    }
+}
