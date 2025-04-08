@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join Meeting</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home_styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sugar Vault Conferencing</h1>
+        <form action="/create" method="POST" style="margin-top: 20px;">
+            <button type="submit">Join New Meeting</button>
+        </form>
+    </div>
+</body>
+</html>
