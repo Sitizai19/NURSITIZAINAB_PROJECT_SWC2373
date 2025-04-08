@@ -1,0 +1,66 @@
+/* Reset default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #ffe4e1;
+    color: #000;
+    min-height: 100vh;
+    padding: 20px;
+    
+    /* Flexbox to center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 800px; 
+    padding: 20px;
+    text-align: center;
+    background: #e683b3;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Input/Buttons */
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
